@@ -1196,7 +1196,9 @@ hr {
   width: 100%;
   max-width: none;
   height: 100%;
-  background: url(../images/background-cover.jpg) top left no-repeat #666666;
+  background-image: url(../images/background-universe.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .panel-cover--collapsed {
@@ -1211,10 +1213,10 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(68, 68, 68, 0.2);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(68, 68, 68, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.9)));
-  background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
-  background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
+  background-color: rgba(134, 139, 156, 0.05);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(134, 139, 156, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.9)));
+  background-image: -webkit-linear-gradient(-410deg, rgba(134, 139, 156, 0.2) 20%, rgba(0, 0, 0, 0.9));
+  background-image: linear-gradient(140deg,rgba(134, 139, 156, 0.2) 20%, rgba(0, 0, 0, 0.9)); }
 
 .panel-cover__logo {
   margin-bottom: .2em; }
